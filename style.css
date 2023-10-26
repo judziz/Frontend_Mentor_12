@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+/* ------------------------- */
+body {
+  background-image: url(images/bg-desktop.png),
+    linear-gradient(hsl(229, 57%, 11%), hsl(229, 57%, 11%));
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom, center;
+  background-size: 175rem 50%, auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 3rem;
+}
+.left-part {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: hsl(228, 56%, 26%);
+  padding: 5rem;
+  padding-right: 15rem;
+  border-radius: 1rem 12rem 1rem 1rem;
+}
+.small-icons {
+  display: flex;
+  gap: 2rem;
+}
+.icon-upload,
+.icon-folder,
+.icon-document {
+  background-color: hsl(229, 57%, 11%);
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+}
+.right-part {
+  background-color: hsl(228, 56%, 26%);
+  color: hsla(243, 100%, 93%, 0.626);
+  border-radius: 1rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.5rem;
+  position: relative;
+}
+.limits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-1 {
+  padding: 0.6rem;
+  border-radius: 1rem;
+  background-image: linear-gradient(
+    to right,
+    hsl(6, 100%, 80%),
+    hsl(335, 100%, 65%)
+  );
+  position: relative;
+}
+.bar-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: hsla(229, 57%, 11%, 0.54);
+  padding: 0.4rem;
+  border-radius: 1rem;
+}
+
+span {
+  font-weight: 700;
+  color: hsla(243, 100%, 93%, 0.859);
+}
+.text {
+  padding-right: 15rem;
+}
+.dot {
+  position: absolute;
+  background-color: azure;
+  padding: 0.45rem;
+  border-radius: 100%;
+  right: 1%;
+  bottom: 12%;
+}
+.cloud {
+  position: absolute;
+  padding: 2rem 3rem;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.522);
+  border-radius: 1rem 1rem 0 1rem;
+  right: 10%;
+  bottom: 90%;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.cloud-2 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 3rem 3rem 0;
+  border-color: transparent white transparent;
+  right: 10%;
+  bottom: 80%;
+}
+.cloud-txt {
+  color: black;
+  font-size: 2.8rem;
+}

@@ -1,0 +1,21 @@
+@media (max-width: 56em) {
+  body {
+    background-image: url(images/bg-mobile.png);
+    background-size: cover;
+  }
+  main {
+    flex-direction: column;
+    align-items: normal;
+  }
+  .text {
+    padding-right: 0;
+  }
+  .cloud {
+    border-radius: 1rem 1rem 1rem 1rem;
+    right: 25%;
+    bottom: -21%;
+  }
+  .cloud-2 {
+    display: none;
+  }
+}
