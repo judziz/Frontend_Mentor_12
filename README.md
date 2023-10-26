@@ -3,7 +3,7 @@
 | Useful Links  |
 | ----------------- |
 [Assignement Link](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n)
-[Vercel Link - Desktop version](https://frontend-mentor-03.vercel.app/)
+[Vercel Link - Desktop version](https://frontend-mentor-12-orcin.vercel.app/)
 
 ---
 
